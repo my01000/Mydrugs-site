@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MyDrugs - Produtos Naturais Exclusivos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #4caf50;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    main {
+      max-width: 700px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #2e7d32;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 10px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+    ul li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #4caf50;
+      font-weight: bold;
+    }
+    button {
+      background: #4caf50;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 1.2em;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+      width: 100%;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background: #388e3c;
+    }
+    blockquote {
+      font-style: italic;
+      color: #555;
+      border-left: 4px solid #4caf50;
+      margin: 20px 0;
+      padding-left: 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 10px;
+      color: #777;
+      font-size: 0.9em;
+    }
+    a {
+      color: #4caf50;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>MyDrugs – Liberdade Natural em Cada Dose</header>
+  <main>
+    <section>
+      <h1>Você é diferente. Seus produtos também deveriam ser.</h1>
+      <p>Chegou a <strong>MyDrugs</strong>, a marca de produtos naturais feita para quem vive intensamente e quer cuidar do corpo e da mente com estilo.</p>
+    </section>
+    <section>
+      <h2>Por que escolher MyDrugs?</h2>
+      <ul>
+        <li>100% natural, sem química, sem enrolação</li>
+        <li>Exclusiva no mercado — só a gente tem</li>
+        <li>Feito para jovens como você: energia, bem-estar e atitude</li>
+        <li>Estilo e saúde em cada embalagem</li>
+      </ul>
+    </section>
+    <section>
+      <button onclick="window.location.href='https://seusite.com/checkout'">COMPRE AGORA</button>
+    </section>
+    <section>
+      <h2>O que nossos clientes dizem</h2>
+      <blockquote>“Nunca pensei que produto natural pudesse ser tão a minha cara.”<br/>— Lucas, 21 anos</blockquote>
+      <blockquote>“Usei uma vez e nunca mais larguei. É outro nível!”<br/>— Bianca, 19 anos</blockquote>
+    </section>
+    <section>
+      <h2>Garantia de Qualidade</h2>
+      <p>Segurança total: nossos produtos são registrados, naturais e aprovados por quem realmente importa: você.</p>
+    </section>
+  </main>
+  <footer>
+    Siga a MyDrugs no Instagram: <a href="https://instagram.com/mydrugs.oficial" target="_blank">@mydrugs.oficial</a><br/>
+    Dúvidas? Chama no WhatsApp!
+  </footer>
+</body>
+</html> criando página inicial
